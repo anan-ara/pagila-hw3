@@ -11,7 +11,7 @@
  */
 SELECT
 	unnest AS "special_feature",
-	SUM(profit)
+	SUM(profit) AS "profit"
 FROM (
 	SELECT
 		title,
